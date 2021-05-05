@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conteudo {
+    width: 80%;
+    max-width: 1140px;
+    min-width: 60%;
+    margin: 0px auto 0px auto;
+}
+
+.bloco-de-recurso {
+    text-align: center;
+    width: 30%;
+    margin: 50px 30px 15px 0;
+}
+
+.bloco-de-recurso i {
+    font-size: 40px;
+}
+
+.color-azul {
+    color: cyan;
+}
+
+.color-roxo {
+    color: rgb(192, 6, 192);
+}
+
+.color-rosa {
+    color: rgba(255, 20, 145, 0.925);
+}
+
+.color-amarelo {
+    color: gold;
+}
+
+.color-verde {
+    color: rgba(0, 128, 0, 0.973);
+}
+
+.color-laranja {
+    color: rgba(255, 160, 122, 0.747);
+}
+
+.titulo-bloco-de-recurso {
+    font-size: 24px;
+    margin-bottom: 8px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-de-sessao {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo {
+    margin: 8px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+
+}
+
+.sub-titulo{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/*cabeçalho*/
+
+.cabecalho{
+    background-color: white;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    padding: 26px 0px;
+}
+
+.conteudo-do-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.informacoes-do-cabecalho img, 
+.informacoes-do-cabecalho nav a{
+    margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #18191f;
+}
+
+.botoes-lojas a{
+    margin-right: 12px;
+    text-decoration: none;
+
+}
+
