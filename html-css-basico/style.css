@@ -164,6 +164,21 @@ body {
     align-items: center;
 }
 
+/* Depoimentos */
+.todos-os-depoimentos{
+    background-color: #28F5BE;
+    padding-top: 120px;
+    padding-bottom: 152px;
+    margin: 64px 0;
+}
+
+.depoimento{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+
 /* Nossas conquistas*/
 
 .todas-nossas-conquistas{
