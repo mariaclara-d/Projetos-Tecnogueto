@@ -1,0 +1,36 @@
+@media screen and (max-width: 30rem) {
+
+    .todos-os-blocos-de-recursos,
+    .banner,
+    .bloco-de-depoimentos,
+    .conteudo-do-header{
+        flex-direction: column;
+    }
+
+    .bloco-de-recurso,
+    .depoimento,
+    .coluna{
+        width: 100%;
+    }
+
+    .depoimento,
+    .margin-negative-110 .depoimento-first-child{
+        margin: 0;
+    }
+
+    .botoes-lojas{
+        margin-top: 1.25rem;
+    }
+
+    .imagem-celular{
+        margin-top: 2.50rem;
+    }
+
+    .banner-principal{
+        background: #f6fffc;
+    }
+
+
+
+    
+}
