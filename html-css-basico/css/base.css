@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+
+}
+
+:root{
+    --cor-rosa: #FF3773;
+    --cor-verde: #28F5BE;
+    --cor-branca: #FFFFFF;
+
+    --fonte-14: 0.875rem;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.625rem;
+}
+
+.conteudo {
+    width: 80%;
+    max-width: 71.25rem;
+    min-width: 60%;
+    margin: 0px auto 0px auto;
+}
+
+.bloco-de-recurso {
+    text-align: center;
+    width: 30%;
+    margin: 3.125rem 0 0.9375rem 0;
+}
+
+.bloco-de-recurso i {
+    font-size: 3rem;
+}
+
+.color-rosa {
+    color: var(--cor-rosa);
+}
+
+.color-verde {
+    color: var(--cor-verde);
+}
+
+.titulo-bloco-de-recurso {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-de-sessao {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0.5rem 0px;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.sub-titulo{
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+/*cabeçalho*/
+
+.cabecalho{
+    background-color: var(--cor-branca);
+    border-bottom: 0.0625rem solid #E5E9F2;
+    padding: 1.625rem 0;
+}
+
+.conteudo-do-header,
+.conteudo-conquistas,
+.blocos-de-numeros,
+.bloco-de-depoimentos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.informacoes-do-cabecalho img, 
+.informacoes-do-cabecalho nav a{
+    margin-right: 2rem;
+}
+
+.informacoes-do-cabecalho nav a{
+    font-weight: bold;
+    font-size: var(--fonte-14);
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: #18191f;
+}
+
+.botoes-lojas a{
+    margin-right: 0.75rem;
+    text-decoration: none;
+
+}
+
+/* Geral */
+.titulo-principal {
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 6.125rem;
+    margin-bottom: 2rem;
+}
+
+.botao {
+    background: var(--cor-verde);
+    color: var(--cor-branca);
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 4.1875rem;
+    border-radius: 0.5rem;
+}
+
+.botao:hover{
+    background: var(--cor-rosa);
+}
+
+.margin-negative-110{
+    margin-top:-6.875rem;
+}
+
+.margin-negative-110 .depoimento:first-child{
+    margin-bottom: 7.75em;
+}
+
+.largura-350 {
+    width: 21.875rem;
+}
